@@ -24,7 +24,7 @@ YouTube PiP Helper is a Chrome extension that enhances your multitasking capabil
 
 1. **Clone or download this repository:**
    ```bash
-   git clone https://github.com/your-username/YouTube-PiP-Helper.git
+   git clone https://github.com/Prajwal-101/YouTube-MiniView
 
 Or download the zip file and extract it.
 
