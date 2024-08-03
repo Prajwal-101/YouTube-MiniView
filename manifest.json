@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Picture-in-Picture",
+    "version": "1.0",
+    "description": "Watch YouTube videos in a floating window while working in other tabs or applications.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
